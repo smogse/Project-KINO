@@ -1,0 +1,161 @@
+.movie-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    font-family: Exo\ 2, sans-serif;
+    padding: 50px 0;
+}
+
+.movie-img {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.movie-poster {
+    border-radius: 20px;
+}
+
+.button-favorites {
+    background-color: #7b61ff;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    height: 56px;
+    outline: none;
+    padding: 19px;
+    width: 100%;
+}
+
+.bi-check2 {
+    /* border-style: dotted; */
+    border-color: pink;
+}
+
+.button-favorites:hover {
+    opacity: 0.8;
+}
+
+.button-play {
+    align-items: center;
+    background-color: #323537;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    height: 56px;
+    outline: none;
+    padding: 19px;
+    width: 100%;
+}
+
+.button-play:hover {
+    background-color: #7b61ff;
+}
+
+.bi-caret-right:hover {
+    color: #fff;
+}
+
+.movie-info {
+    width: 70%;
+    padding-left: 42px;
+}
+
+.movie-genres {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genres {
+    color: #afb2b6;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+}
+
+.genres:not(:last-child):after {
+    content: " • ";
+    margin-right: 4px;
+}
+
+.movie-name {
+    /* color: #fff; */
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.movie-name-eng {
+    color: #afb2b6;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+.movie-markers {
+    display: flex;
+    gap: 20px;
+    height: 28px;
+}
+
+.movie-rating {
+    align-items: center;
+    background-color: #00a340;
+    border-radius: 6px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 18px;
+    justify-content: center;
+    width: 40px;
+}
+
+.movie-time {
+    background-color: #80858b;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline;
+    font-size: 18px;
+    padding: 2px 6px;
+    color: #fff;
+}
+
+.movie-description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 900px;
+    padding-top: 40px;
+    /* color: #fff; */
+}
+
+.movie-description-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.movie-description-column__block {
+    display: flex;
+}
+
+.block-tittle {
+    color: #afb2b6;
+    margin: 0;
+    min-width: 180px;
+}
+
+.block-content {
+    /* color: #fff; */
+    margin: 0;
+    max-width: 1100px;
+}

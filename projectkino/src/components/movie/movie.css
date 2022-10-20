@@ -1,0 +1,41 @@
+.card {
+    background-color: transparent;
+}
+
+.movieCard {
+    width: 100%;
+    border: none;
+    /* background-color: #212529; */
+    /* color: #fff; */
+}
+
+.movieImg {
+    margin-bottom: 14px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-title {
+    font-family: Exo\ 2,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.movies-rating {
+    align-items: center;
+    background-color: #00a340;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    width: 40px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 2px 8px;
+}
